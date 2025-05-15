@@ -47,8 +47,8 @@ print(result)
 ```
 ## Output:
 
-
 ![alt text](<Screenshot (48).png>)
+
 ![alt text](<Screenshot (49).png>)
 
 
