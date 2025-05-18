@@ -29,6 +29,21 @@ P,L,U=lu(A)
 print(L)
 print(U)
 ```
+## Algorithm
+1. Read the Input:
+  Read matrix A from the user input.
+  Read matrix or vector B from the user input.
+2. Convert Inputs to NumPy Arrays:
+  Convert A and B into NumPy arrays for computation.
+3. Perform LU Decomposition:
+  Use lu_factor(A) from SciPy to decompose matrix A into:
+      lu: Combined lower and upper triangular matrices.
+      piv: Pivot indices representing row permutations.
+4. Solve the System:
+   Use lu_solve((lu, piv), B) to compute the solution X.
+5. Display the Result:
+  Print the resulting solution vector X.
+
 (ii) To find the LU Decomposition of a matrix
 ```
 Program to find the LU Decomposition of a matrix.
